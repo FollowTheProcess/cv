@@ -1,0 +1,349 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Tom Fleet",
+    "label": "Software Engineer",
+    "image": "https://media-exp1.licdn.com/dms/image/C4D03AQHNZ-pqT_W2wQ/profile-displayphoto-shrink_400_400/0/1606758733678?e=1640822400&v=beta&t=bG6Grh7FZHdnmIcXpq6HBzgUp98kBPlCdTRl-atkGO0",
+    "email": "tomfleet2018@gmail.com",
+    "url": "https://followtheprocess.github.io",
+    "summary": "I am a highly motivated, logical, detail-oriented and enthusiastic developer with a background in aerospace engineering and materials science. I taught myself to code during the lockdown of 2020 starting with python, shell and SQL. I am a well rounded, competent, professional sofware developer with a broad range of competencies, my specialities are python, Go, machine learning, data analysis, backend web development, REST APIs and microservices. In my spare time I’m learning Rust and have plans to learn Javascript/Typescript in the near future. I have also open sourced a few projects, and am an active open source contributor and maintainer.",
+    "location": {
+      "city": "Manchester",
+      "countryCode": "UK"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "FollowTheProcess",
+        "url": "https://github.com/FollowTheProcess"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Tom Fleet",
+        "url": "https://www.linkedin.com/in/tom-fleet-03b03280/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Junkshon",
+      "location": "Manchester, UK",
+      "description": "Cloud migration SaaS provider",
+      "position": "Python Developer",
+      "url": "https://www.junkshon.com",
+      "startDate": "2021-05-01",
+      "summary": "Backend Python/Django developer split between backend development/maintenance and the implementation of machine learning feature sets on a proprietary web-based platform designed to facilitate cloud migrations.",
+      "highlights": [
+        "Development and deployment of text classification microservices via AWS Lambda and Openfaas. Also created a robust and reusable “cookiecutter” template for such services.",
+        "Maintaining a large enterprise Django application, addressing bugs, implementing new API endpoints to expose to a react frontend, refactoring as necessary.",
+        "Took on a more dev ops focussed role involving deployment of key infrastructure and applications on Azure.",
+        "Successfully completed AWS Cloud Practioner and Azure fundamentals training."
+      ]
+    },
+    {
+      "name": "Alvant Ltd",
+      "location": "Basingstoke, UK",
+      "description": "Advanced metal matrix composite manufacturer",
+      "position": "Materials Engineer",
+      "url": "https://www.alvant.com",
+      "startDate": "2017-05-31",
+      "endDate": "2021-05-01",
+      "summary": "Key member of a small technical team working in the advanced materials/manufacturing sector.",
+      "highlights": [
+        "Installing and setting up a local SQL database to auto-log manufacturing machine data, later migrating to a cloud hosted database.",
+        "Developed and open sourced a python package to automate and enhance the analysis of mechanical test data.",
+        "Created a python package to analyse and report on project timesheet data for the financial team using pandas and streamlit.",
+        "Developed a python package to automate the validation and verification of a manufacturing machine cycle using a combination of pandas and sqlalchemy."
+      ]
+    },
+    {
+      "name": "GE Aviation Systems",
+      "location": "Hamble, UK",
+      "description": "Global aerospace engine and structures manufacturer",
+      "position": "Materials & Processes Engineer",
+      "url": "http://www.aernnova.com/en/discover-hamble-aerostructures/",
+      "startDate": "2015-06-01",
+      "endDate": "2016-09-30",
+      "summary": "Member of the Materials & Processes team working on the Airbus A350 Composite Trailing Edge.",
+      "highlights": [
+        "Heavily involved in elimination of process control test pieces through extremely thorough statistical analysis of historical data.",
+        "Established and proved the source of recurring defects in acrylic canopy moulding through rigorous analysis of historic archive data (dating back to 1973).",
+        "Developed a system for calculating minimum acceptance criteria for a complex mechanical test by using locally-estimated data smoothing."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Cranfield University",
+      "url": "https://www.cranfield.ac.uk",
+      "area": "Materials Science",
+      "studyType": "MSc",
+      "startDate": "2019-09-01",
+      "endDate": "2020-09-01"
+    },
+    {
+      "institution": "Brunel University",
+      "url": "https://www.brunel.ac.uk",
+      "area": "Aerospace Engineering",
+      "studyType": "BEng (hons)",
+      "startDate": "2013-09-01",
+      "endDate": "2017-05-01"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Modelling of the Overcasting Reinforcement Process using the LS-DYNA ® ICFD Solver",
+      "publisher": "12th European LS-Dyna Conference 2019",
+      "releaseDate": "2019-10-01",
+      "url": "https://www.dynalook.com/conferences/12th-european-ls-dyna-conference-2019/fluid-structure-interaction/burt_grm_consulting.pdf/view",
+      "summary": "Innovative use of CFD models combined with liquid metal crystallisation and genetic algorithms in order to predict liquid-solid aluminium bonding to a composite insert."
+    },
+    {
+      "name": "A Machine Learning Approach to Model Interdependencies between Dynamic Response and Crack Propagation",
+      "publisher": "MDPI Sensors",
+      "releaseDate": "2020-11-30",
+      "url": "https://www.mdpi.com/1424-8220/20/23/6847",
+      "summary": "Application of machine learning techniques to thermo-mechanical fatigue damage prediction in aerospace materials."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "keywords": [
+        "Django",
+        "Django Rest Framework",
+        "FastAPI",
+        "Pandas",
+        "Numpy",
+        "Scikit Learn"
+      ]
+    },
+    {
+      "name": "Go",
+      "keywords": [
+        "REST APIs",
+        "Microservices",
+        "CLI"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "CI/CD",
+        "GitHub Actions",
+        "Docker/Compose",
+        "Kubernetes"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "keywords": [
+        "Azure",
+        "AWS",
+        "Openfaas"
+      ]
+    },
+    {
+      "name": "SQL",
+      "keywords": [
+        "MySQL",
+        "Postgres",
+        "SQL Server"
+      ]
+    },
+    {
+      "name": "General",
+      "keywords": [
+        "Testing/TDD",
+        "Packaging/Deployment",
+        "Documentation",
+        "Git/GitHub",
+        "Shell/Command Line",
+        "Linux"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "Guitar",
+        "Drums"
+      ]
+    },
+    {
+      "name": "Motor Racing",
+      "keywords": [
+        "Formula 1",
+        "WRC"
+      ]
+    },
+    {
+      "name": "Open Source",
+      "keywords": [
+        "Contributing",
+        "Maintenance"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Pytoil",
+      "description": "Python CLI to automate the development workflow",
+      "highlights": [
+        "100% Test Coverage",
+        "Available on PyPI",
+        "Around 500 installs per month"
+      ],
+      "keywords": [
+        "Python",
+        "CLI",
+        "Automation",
+        "Developer Tools"
+      ],
+      "url": "https://github.com/FollowTheProcess/pytoil",
+      "roles": [
+        "Creator"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "Gotoil",
+      "description": "Port of pytoil to Go",
+      "highlights": [
+        "First large project in Go",
+        "Available on homebrew"
+      ],
+      "keywords": [
+        "Go",
+        "CLI",
+        "Automation",
+        "Developer Tools"
+      ],
+      "url": "https://github.com/FollowTheProcess/gotoil",
+      "roles": [
+        "Creator"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "msg",
+      "description": "A lightweight console printing toolkit for Go CLIs",
+      "highlights": [
+        "100% Test Coverage",
+        "Available on pkg.go.dev",
+        "First Go Library"
+      ],
+      "keywords": [
+        "Go",
+        "Library"
+      ],
+      "url": "https://github.com/FollowTheProcess/msg",
+      "roles": [
+        "Creator"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "Tag",
+      "description": "CLI to help automate semantic version releases and GitOps",
+      "highlights": [
+        "Available on homebrew"
+      ],
+      "keywords": [
+        "Go",
+        "CLI",
+        "Developer Tooling"
+      ],
+      "url": "https://github.com/FollowTheProcess/tag",
+      "roles": [
+        "Creator"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "Pymechtest",
+      "description": "Python mechanical testing analysis library",
+      "highlights": [
+        "Available on PyPI",
+        "100% Test Coverage",
+        "Engineering/Science Tools"
+      ],
+      "keywords": [
+        "Python",
+        "Pandas",
+        "Engineering/Science"
+      ],
+      "url": "https://github.com/FollowTheProcess/pymechtest",
+      "roles": [
+        "Creator"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "Goignore",
+      "description": "Handy Go CLI to generate gitignore files",
+      "highlights": [
+        "Available on homebrew"
+      ],
+      "keywords": [
+        "Go",
+        "CLI",
+        "Developer Tooling"
+      ],
+      "url": "https://github.com/FollowTheProcess/goignore",
+      "roles": [
+        "Creator"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "Fatigue Damage Prediction",
+      "description": "Using machine learning to accurately predict thermo-mechanical fatigue damage",
+      "highlights": [
+        "Published Journal Article",
+        "High accuracy model"
+      ],
+      "keywords": [
+        "Python",
+        "Scikit Learn",
+        "Engineering/Science"
+      ],
+      "url": "https://github.com/FollowTheProcess/msc_project",
+      "roles": [
+        "Creator"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "Nox",
+      "description": "Python automation and testing toolkit (maintainer)",
+      "highlights": [
+        "Popular project"
+      ],
+      "keywords": [
+        "Python",
+        "Testing",
+        "Developer Tooling"
+      ],
+      "url": "https://nox.thea.codes",
+      "roles": [
+        "Maintainer",
+        "Contributor"
+      ],
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00",
+    "theme": "kendall"
+  }
+}
