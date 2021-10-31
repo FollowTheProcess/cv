@@ -24,10 +24,12 @@ validate:
 
 # Build a pdf
 pdf: validate
+    mkdir -p exports
     {{ RESUME }} export {{ PDF }} --format pdf --theme {{ DEFAULT_THEME }}
 
 # Build a html page
 html: validate
+    mkdir -p exports
     {{ RESUME }} export {{ HTML }} --format html --theme {{ DEFAULT_THEME }}
 
 # Clean up built exports and public
