@@ -1,6 +1,6 @@
 DEFAULT_THEME := "kendall"
 PDF := "./exports/Tom_Fleet_CV.pdf"
-HTML := "./exports/Tom_Fleet_CV.html"
+HTML := "./public/index.html"
 RESUME := "./node_modules/resume-cli/build/main.js"
 
 _default:
@@ -29,7 +29,6 @@ pdf: validate
 
 # Build a html page
 html: validate
-    mkdir -p exports
     {{ RESUME }} export {{ HTML }} --format html --theme {{ DEFAULT_THEME }}
 
 # Clean up built exports and public
