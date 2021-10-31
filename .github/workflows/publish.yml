@@ -1,0 +1,33 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - main # Set a branch to deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Set Up NodeJS
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+
+      - name: Set Up Just
+        uses: extractions/setup-just@v1
+
+      - name: Install
+        run: npm install
+
+      - name: Build
+        run: just html
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

@@ -25,12 +25,10 @@ validate:
 # Build a pdf
 pdf: validate
     {{ RESUME }} export {{ PDF }} --format pdf --theme {{ DEFAULT_THEME }}
-    open {{ PDF }}
 
 # Build a html page
 html: validate
     {{ RESUME }} export {{ HTML }} --format html --theme {{ DEFAULT_THEME }}
-    open {{ HTML }}
 
 # Clean up built exports and public
 clean:
