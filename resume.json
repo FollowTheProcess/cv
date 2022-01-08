@@ -3,10 +3,10 @@
   "basics": {
     "name": "Tom Fleet",
     "label": "Software Engineer",
-    "image": "https://media-exp1.licdn.com/dms/image/C4D03AQHNZ-pqT_W2wQ/profile-displayphoto-shrink_400_400/0/1606758733678?e=1640822400&v=beta&t=bG6Grh7FZHdnmIcXpq6HBzgUp98kBPlCdTRl-atkGO0",
+    "image": "https://media-exp1.licdn.com/dms/image/C4D03AQHNZ-pqT_W2wQ/profile-displayphoto-shrink_400_400/0/1606758733678?e=1646870400&v=beta&t=geWWJ0ZZWdeKVXEtzFH15Ner3zwhSdj5Sr8kZgJrRb0",
     "email": "tomfleet2018@gmail.com",
     "url": "https://followtheprocess.github.io",
-    "summary": "I am a highly motivated, logical, detail-oriented and enthusiastic developer with a background in aerospace engineering and materials science. I taught myself to code during the lockdown of 2020 starting with python, shell and SQL. I am a well rounded, competent, professional sofware developer with a broad range of competencies, my specialities are python, Go, machine learning, data analysis, backend web development, REST APIs and microservices. In my spare time I’m learning Rust and have plans to learn Javascript/Typescript in the near future. I have also open sourced a few projects, and am an active open source contributor and maintainer.",
+    "summary": "I am a highly motivated, logical, detail-oriented and enthusiastic developer with a background in aerospace engineering and materials science. I taught myself to code during the lockdown of 2020 starting with python, bash, go and SQL. I am a well rounded, competent, professional sofware developer with a broad range of competencies, my specialities are python, Go, machine learning, data analysis, backend web development, REST APIs and microservices. In my spare time I’m learning Rust and have plans to learn Typescript in the near future. I have also open sourced a few projects, and am an active open source contributor and maintainer.",
     "location": {
       "city": "Manchester",
       "countryCode": "UK"
@@ -29,7 +29,7 @@
       "name": "Junkshon",
       "location": "Manchester, UK",
       "description": "Cloud migration SaaS provider",
-      "position": "Python Developer",
+      "position": "Machine Learning Developer",
       "url": "https://www.junkshon.com",
       "startDate": "2021-05-01",
       "summary": "Backend Python/Django developer split between backend development/maintenance and the implementation of machine learning feature sets on a proprietary web-based platform designed to facilitate cloud migrations.",
@@ -115,7 +115,11 @@
         "FastAPI",
         "Pandas",
         "Numpy",
-        "Scikit Learn"
+        "Scikit Learn",
+        "Matplotlib",
+        "Altair",
+        "Seaborn",
+        "Plotly"
       ]
     },
     {
@@ -123,7 +127,7 @@
       "keywords": [
         "REST APIs",
         "Microservices",
-        "CLI"
+        "CLIs"
       ]
     },
     {
@@ -199,7 +203,7 @@
       "highlights": [
         "100% Test Coverage",
         "Available on PyPI",
-        "Around 500 installs per month"
+        "Around 200 installs per month"
       ],
       "keywords": [
         "Python",
