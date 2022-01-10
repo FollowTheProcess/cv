@@ -31,6 +31,10 @@ pdf: validate
 html: validate
     {{ RESUME }} export {{ HTML }} --format html --theme {{ DEFAULT_THEME }}
 
+# Spell check the CV
+check:
+    pre-commit run --all-files
+
 # Clean up built exports and public
 clean:
     rm -rf exports/* public
