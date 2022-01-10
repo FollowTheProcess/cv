@@ -6,7 +6,7 @@
     "image": "https://media-exp1.licdn.com/dms/image/C4D03AQHNZ-pqT_W2wQ/profile-displayphoto-shrink_400_400/0/1606758733678?e=1646870400&v=beta&t=geWWJ0ZZWdeKVXEtzFH15Ner3zwhSdj5Sr8kZgJrRb0",
     "email": "tomfleet2018@gmail.com",
     "url": "https://followtheprocess.github.io",
-    "summary": "I am a highly motivated, logical, detail-oriented and enthusiastic developer with a background in aerospace engineering and materials science. I taught myself to code during the lockdown of 2020 starting with python, bash, go and SQL. I am a well rounded, competent, professional sofware developer with a broad range of competencies, my specialities are python, Go, machine learning, data analysis, backend web development, REST APIs and microservices. In my spare time I’m learning Rust and have plans to learn Typescript in the near future. I have also open sourced a few projects, and am an active open source contributor and maintainer.",
+    "summary": "I am a highly motivated, logical, detail-oriented and enthusiastic developer with a background in aerospace engineering and materials science. I taught myself to code during the lockdown of 2020 starting with python, bash, go and SQL. I am a well rounded, competent, professional software developer with a broad range of competencies, my specialities are python, Go, machine learning, data analysis, backend web development, REST APIs and microservices. In my spare time I’m learning Rust and have plans to learn Typescript in the near future. I have also open sourced a few projects, and am an active open source contributor and maintainer.",
     "location": {
       "city": "Manchester",
       "countryCode": "UK"
@@ -36,8 +36,8 @@
       "highlights": [
         "Development and deployment of text classification microservices via AWS Lambda and Openfaas. Also created a robust and reusable “cookiecutter” template for such services.",
         "Maintaining a large enterprise Django application, addressing bugs, implementing new API endpoints to expose to a react frontend, refactoring as necessary.",
-        "Took on a more dev ops focussed role involving deployment of key infrastructure and applications on Azure.",
-        "Successfully completed AWS Cloud Practioner and Azure fundamentals training."
+        "Took on a more dev ops focused role involving deployment of key infrastructure and applications on Azure.",
+        "Successfully completed AWS Cloud Practitioner and Azure fundamentals training."
       ]
     },
     {

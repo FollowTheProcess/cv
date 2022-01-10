@@ -33,7 +33,7 @@ html: validate
 
 # Spell check the CV
 check:
-    pre-commit run --all-files
+    codespell resume.json
 
 # Clean up built exports and public
 clean:
