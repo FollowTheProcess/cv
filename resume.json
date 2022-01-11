@@ -78,16 +78,16 @@
       "url": "https://www.cranfield.ac.uk",
       "area": "Materials Science",
       "studyType": "MSc",
-      "startDate": "2019-09-01",
-      "endDate": "2020-09-01"
+      "startDate": "2020-09-01",
+      "endDate": "2019-09-01"
     },
     {
       "institution": "Brunel University",
       "url": "https://www.brunel.ac.uk",
       "area": "Aerospace Engineering",
       "studyType": "BEng (hons)",
-      "startDate": "2013-09-01",
-      "endDate": "2017-05-01"
+      "startDate": "2017-05-01",
+      "endDate": "2013-09-01"
     }
   ],
   "publications": [
