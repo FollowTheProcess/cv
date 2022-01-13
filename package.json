@@ -1,4 +1,19 @@
 {
+  "name": "cv",
+  "version": "0.1.0",
+  "description": "My CV, built with jsonresume.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FollowTheProcess/cv.git"
+  },
+  "author": {
+    "name": "Tom Fleet"
+  },
+  "scripts": {
+    "serve": "resume-cli --serve --theme kendall",
+    "validate": "resume-cli validate",
+    "build": "resume-cli export ./public/index.html --format html --theme kendall"
+  },
   "dependencies": {
     "jsonresume-theme-kendall": "^0.2.0",
     "resume-cli": "^3.0.5"
