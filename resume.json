@@ -123,9 +123,9 @@
     {
       "name": "Go",
       "keywords": [
+        "CLIs",
         "REST APIs",
-        "Microservices",
-        "CLIs"
+        "Microservices"
       ]
     },
     {
@@ -197,7 +197,7 @@
   "projects": [
     {
       "name": "Pytoil",
-      "description": "Python CLI to automate the development workflow",
+      "description": "Python CLI to automate the development workflow.",
       "highlights": [
         "Available on PyPI",
         "Currently at 32k installs",
@@ -217,7 +217,7 @@
     },
     {
       "name": "Spok",
-      "description": "A modern task runner/build system",
+      "description": "A modern, concurrent task runner/build system written in Go.",
       "highlights": [
         "Fully original lexed, parsed syntax",
         "Nice CLI",
@@ -236,8 +236,26 @@
       "type": "application"
     },
     {
+      "name": "Nox",
+      "description": "Python automation and testing toolkit (maintainer).",
+      "highlights": [
+        "Popular project"
+      ],
+      "keywords": [
+        "Python",
+        "Testing",
+        "Developer Tooling"
+      ],
+      "url": "https://nox.thea.codes",
+      "roles": [
+        "Maintainer",
+        "Contributor"
+      ],
+      "type": "application"
+    },
+    {
       "name": "msg",
-      "description": "A lightweight console printing toolkit for Go CLIs",
+      "description": "A lightweight console printing toolkit for Go CLIs.",
       "highlights": [
         "100% Test Coverage",
         "Available on pkg.go.dev",
@@ -255,7 +273,7 @@
     },
     {
       "name": "Tag",
-      "description": "CLI to help automate semantic version releases and GitOps",
+      "description": "CLI to help automate semantic version releases and GitOps.",
       "highlights": [
         "Available on homebrew"
       ],
@@ -272,7 +290,7 @@
     },
     {
       "name": "Pymechtest",
-      "description": "Python mechanical testing analysis library",
+      "description": "Python mechanical testing analysis library.",
       "highlights": [
         "Available on PyPI",
         "100% Test Coverage",
@@ -291,7 +309,7 @@
     },
     {
       "name": "Goignore",
-      "description": "Handy Go CLI to generate gitignore files",
+      "description": "Handy Go CLI to generate gitignore files.",
       "highlights": [
         "Available on homebrew"
       ],
@@ -308,7 +326,7 @@
     },
     {
       "name": "Fatigue Damage Prediction",
-      "description": "Using machine learning to accurately predict thermo-mechanical fatigue damage",
+      "description": "Using machine learning to accurately predict thermo-mechanical fatigue damage.",
       "highlights": [
         "Published Journal Article",
         "High accuracy model"
@@ -321,24 +339,6 @@
       "url": "https://github.com/FollowTheProcess/msc_project",
       "roles": [
         "Creator"
-      ],
-      "type": "application"
-    },
-    {
-      "name": "Nox",
-      "description": "Python automation and testing toolkit (maintainer)",
-      "highlights": [
-        "Popular project"
-      ],
-      "keywords": [
-        "Python",
-        "Testing",
-        "Developer Tooling"
-      ],
-      "url": "https://nox.thea.codes",
-      "roles": [
-        "Maintainer",
-        "Contributor"
       ],
       "type": "application"
     }
