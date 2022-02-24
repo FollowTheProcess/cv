@@ -37,8 +37,8 @@
         "Development and deployment of text classification microservices via Azure Functions and Openfaas. Also created a robust and reusable “cookiecutter” template for such services.",
         "Maintaining a large enterprise Django application, addressing bugs, implementing new API endpoints to expose to a react frontend, refactoring as necessary.",
         "Took on a more dev ops focused role involving deployment of key infrastructure and applications on Azure.",
-        "Took the lead in the implementation of CI/CD, staging environments and a TDD developer approach.",
-        "Successfully completed AWS Cloud Practitioner and Azure Developer Associate."
+        "Took the lead in the roadmapping of CI/CD, staging environments and a TDD developer approach.",
+        "Successfully completed AWS Cloud Practitioner and Azure Developer Associate training."
       ]
     },
     {
