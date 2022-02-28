@@ -162,7 +162,8 @@
         "Git/GitHub",
         "Shell/Command Line",
         "Linux",
-        "REST/GraphQL"
+        "REST/GraphQL",
+        "Agile"
       ]
     }
   ],
@@ -201,7 +202,7 @@
       "description": "Python CLI to automate the development workflow.",
       "highlights": [
         "Available on PyPI",
-        "Currently at 32k installs",
+        "Currently at 34k installs",
         "Fully asynchronous"
       ],
       "keywords": [
