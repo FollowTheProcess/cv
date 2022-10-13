@@ -6,9 +6,9 @@
     "image": "https://avatars.githubusercontent.com/u/62767721?v=4",
     "email": "tomfleet2018@gmail.com",
     "url": "https://followtheprocess.github.io",
-    "summary": "I am a highly motivated, logical, detail-oriented and enthusiastic self-taught software engineer with a background in aerospace engineering and materials science. My specialities are python, Go, machine learning, data analysis, backend web development, REST APIs and microservices. In my spare time I do lots of side projects, I'm learning Rust and have plans to learn Typescript in the near future. I have also open sourced a few projects, and am an active open source contributor and maintainer.",
+    "summary": "I am a highly motivated, logical, detail-oriented and enthusiastic self-taught software engineer with a background in aerospace engineering and materials science. I am highly proficient in Python, Go, AWS, backend web development, REST APIs and microservices. In my spare time I do lots of side projects, I have also open sourced a few projects, and am an active open source contributor and maintainer.",
     "location": {
-      "city": "Manchester",
+      "city": "Nantwich",
       "countryCode": "UK"
     },
     "profiles": [
@@ -25,6 +25,21 @@
     ]
   },
   "work": [
+    {
+      "name": "Chetwood Financial Ltd.",
+      "location": "Wrexham, UK",
+      "description": "Digital-first UK Bank",
+      "position": "Python Developer",
+      "url": "https://chetwood.co",
+      "startDate": "2022-04-11",
+      "summary": "Python engineer working in a cross-functional pod focused on the development and maintenance of the custom built, in-house lending decision engine.",
+      "highlights": [
+        "Key member of a high performing team looking after a piece of critical infrastructure",
+        "Coordinated and led the release of a novel dynamic pricing mechanism with a turn around time of just 9 days",
+        "Managed regular releases of critical infrastructure including 3rd party integration layers and the in-house lending decision engine",
+        "Advanced AWS knowledge and experience significantly, particularly Lambda, API Gateway, DynamoDB and Step Functions"
+      ]
+    },
     {
       "name": "Junkshon",
       "location": "Manchester, UK",
@@ -112,13 +127,11 @@
     {
       "name": "Python",
       "keywords": [
-        "Django",
-        "Django Rest Framework",
+        "Django/DRF",
         "FastAPI",
         "Pytest",
-        "Pandas",
-        "Numpy",
-        "Scikit Learn"
+        "Packaging/Distribution",
+        "Best Practices/Patterns"
       ]
     },
     {
@@ -139,11 +152,14 @@
       ]
     },
     {
-      "name": "Cloud",
+      "name": "AWS",
       "keywords": [
-        "Azure",
-        "AWS",
-        "Openfaas"
+        "Lambda",
+        "DynamoDB",
+        "API Gateway",
+        "Step Functions",
+        "SAM",
+        "SQS/SNS"
       ]
     },
     {
@@ -162,7 +178,6 @@
         "Documentation",
         "Git/GitHub",
         "Shell/Command Line",
-        "Linux",
         "REST/GraphQL",
         "Agile"
       ]
