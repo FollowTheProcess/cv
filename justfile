@@ -33,7 +33,7 @@ html: validate
 
 # Spell check the CV
 check:
-    codespell resume.json -L beng
+    pipx run codespell resume.json -L beng
 
 # Clean up built exports and public
 clean:

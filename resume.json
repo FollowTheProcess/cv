@@ -6,7 +6,7 @@
     "image": "https://avatars.githubusercontent.com/u/62767721?v=4",
     "email": "tomfleet2018@gmail.com",
     "url": "https://followtheprocess.github.io",
-    "summary": "I am a highly motivated, logical, detail-oriented and enthusiastic self-taught software engineer with a background in aerospace engineering and materials science. I am highly proficient in Python, Go, AWS, backend web development, REST APIs and microservices. In my spare time I do lots of side projects, I have also open sourced a few projects, and am an active open source contributor and maintainer.",
+    "summary": "I am a highly motivated, logical, detail-oriented and enthusiastic self-taught software engineer with a background in aerospace engineering and materials science. I am highly proficient in Python, Go, AWS, backend web development, REST APIs and microservices and take pride in producing reliable, clean and robust software. In my spare time I do lots of side projects, I have also open sourced a few projects, and am an active open source contributor and maintainer.",
     "location": {
       "city": "Nantwich",
       "countryCode": "UK"
@@ -29,12 +29,30 @@
       "name": "Chetwood Financial Ltd.",
       "location": "Wrexham, UK",
       "description": "Digital-first UK Bank",
-      "position": "Python Developer",
+      "position": "Tech Lead - Decisioning",
+      "url": "https://chetwood.co",
+      "startDate": "2023-02-22",
+      "summary": "Promoted to technical lead of the decisioning team; setting a technical & strategic direction, designing higher level architecture, and leading the team.",
+      "highlights": [
+        "Led the migration to a brand new implementation of the core decisioning engine, utilising AWS Step Functions to form a state machine based approach.",
+        "Designed the teams approach to technical debt remediation, and led the team in the implementation of a new trunk based CI/CD pipeline across our services.",
+        "Regularly presenting to business leadership on technical progress of key initiatives, explaining blockers and revised deadlines.",
+        "Designed and built a new, more robust service for emulating 3rd party calls during testing, accelerating change delivery.",
+        "Worked with leadership as part of cycle planning to set quarterly direction and objectives for the team, in line with business strategy.",
+        "Participating in the recruitment of new team members, and mentoring new joiners."
+      ]
+    },
+    {
+      "name": "Chetwood Financial Ltd.",
+      "location": "Wrexham, UK",
+      "description": "Digital-first UK Bank",
+      "position": "Software Engineer",
       "url": "https://chetwood.co",
       "startDate": "2022-04-11",
+      "endDate": "2023-02-22",
       "summary": "Python engineer working in a cross-functional pod focused on the development and maintenance of the custom built, in-house lending decision engine.",
       "highlights": [
-        "Key member of a high performing team looking after a piece of critical infrastructure",
+        "Key member of a high performing team responsible for a piece of critical infrastructure",
         "Coordinated and led the release of a novel dynamic pricing mechanism with a turn around time of just 9 days",
         "Managed regular releases of critical infrastructure including 3rd party integration layers and the in-house lending decision engine",
         "Advanced AWS knowledge and experience significantly, particularly Lambda, API Gateway, DynamoDB and Step Functions"
@@ -125,21 +143,11 @@
   ],
   "skills": [
     {
-      "name": "Python",
+      "name": "Languages",
       "keywords": [
-        "Django/DRF",
-        "FastAPI",
-        "Pytest",
-        "Packaging/Distribution",
-        "Best Practices/Patterns"
-      ]
-    },
-    {
-      "name": "Go",
-      "keywords": [
-        "CLIs",
-        "REST APIs",
-        "Microservices"
+        "Python",
+        "Go",
+        "Rust"
       ]
     },
     {
@@ -147,7 +155,10 @@
       "keywords": [
         "CI/CD",
         "GitHub Actions",
-        "Docker/Compose"
+        "Docker/Compose",
+        "Terraform",
+        "AWS SAM",
+        "Cloudformation"
       ]
     },
     {
@@ -157,8 +168,10 @@
         "DynamoDB",
         "API Gateway",
         "Step Functions",
-        "SAM",
-        "SQS/SNS"
+        "SQS/SNS",
+        "Codepipeline",
+        "SAR",
+        "Pinpoint"
       ]
     },
     {
@@ -193,7 +206,8 @@
       "name": "Music",
       "keywords": [
         "Guitar",
-        "Drums"
+        "Drums",
+        "Gigs"
       ]
     },
     {
@@ -204,10 +218,22 @@
       ]
     },
     {
+      "name": "Science & Technology",
+      "keywords": [
+        "Astronomy",
+        "Physics",
+        "Materials Science",
+        "Spaceflight",
+        "Robotics"
+      ]
+    },
+    {
       "name": "Open Source",
       "keywords": [
         "Contributing",
-        "Maintenance"
+        "Maintenance",
+        "Collaboration",
+        "Side Projects"
       ]
     }
   ],
@@ -217,7 +243,7 @@
       "description": "Python CLI to automate the development workflow.",
       "highlights": [
         "Available on PyPI",
-        "Currently at 34k installs",
+        "Currently at >70k installs",
         "Fully asynchronous"
       ],
       "keywords": [
