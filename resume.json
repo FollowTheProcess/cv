@@ -6,7 +6,7 @@
     "image": "https://avatars.githubusercontent.com/u/62767721?v=4",
     "email": "tomfleet2018@gmail.com",
     "url": "https://followtheprocess.github.io",
-    "summary": "I am a highly motivated, logical, detail-oriented and enthusiastic self-taught software engineer with a background in aerospace engineering and materials science. I am highly proficient in Python, Go, AWS, backend web development, REST APIs and microservices and take pride in producing reliable, clean and robust software. In my spare time I do lots of side projects, I have also open sourced a few projects, and am an active open source contributor and maintainer.",
+    "summary": "I am a highly motivated, logical, detail-oriented and experienced self-taught software engineer with a background in aerospace engineering and materials science. I am highly proficient in Python, Go, AWS, REST APIs and microservices/distributed systems and take pride in producing reliable, clean and robust software and architectures. I also enjoy mentoring other engineers and sharing knowledge/experience in areas where I'm able to do so. In my spare time I do lots of side projects, I have also open sourced a few projects, and am an active open source contributor and maintainer.",
     "location": {
       "city": "Nantwich",
       "countryCode": "UK"
@@ -32,14 +32,16 @@
       "position": "Tech Lead - Decisioning",
       "url": "https://chetwood.co",
       "startDate": "2023-02-22",
-      "summary": "Promoted to technical lead of the decisioning team; setting a technical & strategic direction, designing higher level architecture, and leading the team.",
+      "summary": "Promoted to technical lead of the decisioning team; setting a technical & strategic direction, designing higher level architectures, acting as a the organisation's decisioning SME, and leading a team of several developers and QAs.",
       "highlights": [
-        "Led the migration to a brand new implementation of the core decisioning engine, utilising AWS Step Functions to form a state machine based approach.",
-        "Designed the teams approach to technical debt remediation, and led the team in the implementation of a new trunk based CI/CD pipeline across our services.",
-        "Regularly presenting to business leadership on technical progress of key initiatives, explaining blockers and revised deadlines.",
-        "Designed and built a new, more robust service for emulating 3rd party calls during testing, accelerating change delivery.",
-        "Worked with leadership as part of cycle planning to set quarterly direction and objectives for the team, in line with business strategy.",
-        "Participating in the recruitment of new team members, and mentoring new joiners."
+        "Led the migration to a brand new implementation of the core decisioning journey, utilising AWS Step Functions to form a state machine based approach.",
+        "Introduced and championed the use of static typing in python code as well as significantly stricter linting, leading to a measurable reduction in production errors across a number of services.",
+        "Created and rolled out a 'best practice baked in' template for a serverless application that was widely adopted and liked across the organisation.",
+        "Regularly presented to business leadership on technical progress of key initiatives, explaining blockers and revised deadlines, working with them to set stakeholder expectations during quarterly planning and ensuring the team are delivering value in the most impactful areas.",
+        "Designed and built a performant and highly available scoring service running a number of ML scorecards in parallel using AWS Step Functions, Sagemaker, API Gateway, and Lambda.",
+        "Ran a serverless workshop for developers new to the stack, upskilling them in AWS CloudFormation, SAM, Lambdas, API Gateway, DynamoDB etc. We were able to get a simple CRUD API deployed on CodePipeline in a day.",
+        "Championed the use of TDD and ran demos/workshops on how to approach problems in a 'test first' way, pairing with other engineers showing how TDD can aid debugging, improve API design as well as significantly increase reliability and robustness in a codebase.",
+        "Participated in the interviewing and recruitment of new engineers up to staff level, mentoring new team members and fostering an attitude of engineering excellence and best practice within the team."
       ]
     },
     {
@@ -69,9 +71,8 @@
       "summary": "Backend Python/Django developer split between backend development/maintenance and the implementation of machine learning feature sets on a proprietary web-based platform designed to facilitate cloud migrations.",
       "highlights": [
         "Development and deployment of text classification microservices via Azure Functions and Openfaas. Also created a robust and reusable “cookiecutter” template for such services.",
-        "Maintaining a large enterprise Django application, addressing bugs, implementing new API endpoints to expose to a react frontend, refactoring as necessary.",
+        "Maintaining a large enterprise Django REST API, addressing bugs, implementing new API endpoints to expose to a react frontend, refactoring as necessary.",
         "Took on a more dev ops focused role involving deployment of key infrastructure and applications on Azure.",
-        "Took the lead in the roadmapping of CI/CD, staging environments and a TDD developer approach.",
         "Successfully completed AWS Cloud Practitioner and Azure Developer Associate training."
       ]
     },
@@ -85,10 +86,8 @@
       "endDate": "2021-05-01",
       "summary": "Key member of a small technical team working in the advanced materials/manufacturing sector.",
       "highlights": [
-        "Installed and set up a local SQL database to auto-log manufacturing machine data, later migrating to a cloud hosted database.",
-        "Developed and open sourced a python package to automate and enhance the analysis of mechanical test data.",
-        "Created a python package to analyse and report on project timesheet data for the financial team using pandas and streamlit.",
-        "Developed a python package to automate the validation and verification of a manufacturing machine cycle using a combination of pandas and sqlalchemy."
+        "Coordinated and led a number of research projects in advanced metal matrix composite technology, characterisation and manufacturing techniques.",
+        "Published 2 research papers combining advanced computational techniques and materials science."
       ]
     },
     {
@@ -101,9 +100,7 @@
       "endDate": "2016-09-30",
       "summary": "Member of the Materials & Processes team working on the Airbus A350 Composite Trailing Edge.",
       "highlights": [
-        "Heavily involved in elimination of process control test pieces through extremely thorough statistical analysis of historical data.",
-        "Established and proved the source of recurring defects in acrylic canopy moulding through rigorous analysis of historic archive data (dating back to 1973).",
-        "Developed a system for calculating minimum acceptance criteria for a complex mechanical test by using locally-estimated data smoothing."
+        "Mixture of production support and R&D activities in polymer composite materials to support production of the Airbus A350-900 and -1000"
       ]
     }
   ],
@@ -123,6 +120,16 @@
       "studyType": "BEng (hons)",
       "startDate": "2017-05-01",
       "endDate": "2013-09-01"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Cloud Practitioner",
+      "issuer": "AWS"
+    },
+    {
+      "name": "Azure Fundamentals",
+      "issuer": "Microsoft"
     }
   ],
   "publications": [
@@ -171,7 +178,9 @@
         "SQS/SNS",
         "Codepipeline",
         "SAR",
-        "Pinpoint"
+        "Pinpoint",
+        "Kinesis/Firehose",
+        "VPC/Networking"
       ]
     },
     {
@@ -243,8 +252,7 @@
       "description": "Python CLI to automate the development workflow.",
       "highlights": [
         "Available on PyPI",
-        "Currently at >70k installs",
-        "Fully asynchronous"
+        "Currently at >70k installs"
       ],
       "keywords": [
         "Python",
