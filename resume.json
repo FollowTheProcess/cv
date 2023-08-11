@@ -32,16 +32,18 @@
       "position": "Tech Lead - Decisioning",
       "url": "https://chetwood.co",
       "startDate": "2023-02-22",
-      "summary": "Promoted to technical lead of the decisioning team; setting a technical & strategic direction, designing higher level architectures, acting as a the organisation's decisioning SME, and leading a team of several developers and QAs.",
+      "summary": "Promoted to technical lead of the decisioning pod; setting a technical & strategic direction, designing higher level architectures, acting as a the organisation's decisioning SME, and leading a team of several developers and QAs.",
       "highlights": [
         "Led the migration to a brand new implementation of the core decisioning journey, utilising AWS Step Functions to form a state machine based approach.",
-        "Introduced and championed the use of static typing in python code as well as significantly stricter linting, leading to a measurable reduction in production errors across a number of services.",
         "Created and rolled out a 'best practice baked in' template for a serverless application that was widely adopted and liked across the organisation.",
         "Regularly presented to business leadership on technical progress of key initiatives, explaining blockers and revised deadlines, working with them to set stakeholder expectations during quarterly planning and ensuring the team are delivering value in the most impactful areas.",
-        "Designed and built a performant and highly available scoring service running a number of ML scorecards in parallel using AWS Step Functions, Sagemaker, API Gateway, and Lambda.",
-        "Ran a serverless workshop for developers new to the stack, upskilling them in AWS CloudFormation, SAM, Lambdas, API Gateway, DynamoDB etc. We were able to get a simple CRUD API deployed on CodePipeline in a day.",
+        "Designed and built a performant and highly available scoring service running a number of ML scorecards in parallel using AWS Step Functions, Sagemaker, API Gateway, Lambda and distributed tracing tools.",
+        "Introduced and championed the use of static typing in python code as well as significantly stricter linting, leading to a measurable reduction in production errors across a number of services.",
+        "Ran a serverless workshop for developers new to the stack, upskilling them in AWS CloudFormation, SAM, Lambdas, API Gateway, DynamoDB etc.",
         "Championed the use of TDD and ran demos/workshops on how to approach problems in a 'test first' way, pairing with other engineers showing how TDD can aid debugging, improve API design as well as significantly increase reliability and robustness in a codebase.",
-        "Participated in the interviewing and recruitment of new engineers up to staff level, mentoring new team members and fostering an attitude of engineering excellence and best practice within the team."
+        "Participated in the interviewing and recruitment of new engineers up to staff level.",
+        "Mentored new team members and helped to foster an attitude of engineering excellence and best practice within the team and across the function.",
+        "Appointed to the Technical Design Council and was heavily involved in a number of large initiatives across engineering including review/approval of complex arhictectural changes, adoption of new technologies and high impact security and compliance initiatives."
       ]
     },
     {
@@ -56,8 +58,7 @@
       "highlights": [
         "Key member of a high performing team responsible for a piece of critical infrastructure",
         "Coordinated and led the release of a novel dynamic pricing mechanism with a turn around time of just 9 days",
-        "Managed regular releases of critical infrastructure including 3rd party integration layers and the in-house lending decision engine",
-        "Advanced AWS knowledge and experience significantly, particularly Lambda, API Gateway, DynamoDB and Step Functions"
+        "Managed regular releases of critical infrastructure including 3rd party integration layers and the in-house lending decision engine"
       ]
     },
     {
@@ -71,35 +72,19 @@
       "summary": "Backend Python/Django developer split between backend development/maintenance and the implementation of machine learning feature sets on a proprietary web-based platform designed to facilitate cloud migrations.",
       "highlights": [
         "Development and deployment of text classification microservices via Azure Functions and Openfaas. Also created a robust and reusable “cookiecutter” template for such services.",
-        "Maintaining a large enterprise Django REST API, addressing bugs, implementing new API endpoints to expose to a react frontend, refactoring as necessary.",
-        "Took on a more dev ops focused role involving deployment of key infrastructure and applications on Azure.",
-        "Successfully completed AWS Cloud Practitioner and Azure Developer Associate training."
+        "Maintaining a large enterprise Django REST API, addressing bugs, implementing new API endpoints to expose to a react frontend, refactoring as necessary."
       ]
     },
     {
-      "name": "Alvant Ltd",
-      "location": "Basingstoke, UK",
-      "description": "Advanced metal matrix composite manufacturer",
-      "position": "Materials Engineer",
-      "url": "https://www.alvant.com",
-      "startDate": "2017-05-31",
+      "name": "Previous Life",
+      "location": "Various",
+      "description": "Former career in Aerospace Engineering and Materials Science, details omitted for brevity.",
+      "startDate": "2015-06-01",
       "endDate": "2021-05-01",
-      "summary": "Key member of a small technical team working in the advanced materials/manufacturing sector.",
+      "summary": "Engineer/scientist focused on advanced materials science, polymer and metallic composites applied to the aerospace industry both in large multinational corporations and smaller research labs.",
       "highlights": [
         "Coordinated and led a number of research projects in advanced metal matrix composite technology, characterisation and manufacturing techniques.",
-        "Published 2 research papers combining advanced computational techniques and materials science."
-      ]
-    },
-    {
-      "name": "GE Aviation Systems",
-      "location": "Hamble, UK",
-      "description": "Global aerospace engine and structures manufacturer",
-      "position": "Materials & Processes Engineer",
-      "url": "http://www.aernnova.com/en/discover-hamble-aerostructures/",
-      "startDate": "2015-06-01",
-      "endDate": "2016-09-30",
-      "summary": "Member of the Materials & Processes team working on the Airbus A350 Composite Trailing Edge.",
-      "highlights": [
+        "Published 2 research papers combining advanced computational techniques and materials science.",
         "Mixture of production support and R&D activities in polymer composite materials to support production of the Airbus A350-900 and -1000"
       ]
     }
@@ -249,7 +234,7 @@
   "projects": [
     {
       "name": "Pytoil",
-      "description": "Python CLI to automate the development workflow.",
+      "description": "Python CLI to automate the development workflow",
       "highlights": [
         "Available on PyPI",
         "Currently at >70k installs"
