@@ -147,7 +147,7 @@
         "Docker/Compose",
         "Terraform",
         "AWS SAM",
-        "Cloudformation"
+        "CloudFormation"
       ]
     },
     {
@@ -158,7 +158,7 @@
         "API Gateway",
         "Step Functions",
         "SQS/SNS",
-        "Codepipeline",
+        "CodePipeline",
         "SAR",
         "Pinpoint",
         "Kinesis/Firehose",
