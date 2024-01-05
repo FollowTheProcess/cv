@@ -6,7 +6,7 @@
     "image": "https://avatars.githubusercontent.com/u/62767721?v=4",
     "email": "tomfleet2018@gmail.com",
     "url": "https://followtheprocess.github.io",
-    "summary": "I am a highly motivated, logical, detail-oriented and experienced self-taught software engineer with a background in aerospace engineering and materials science. I am highly proficient in Python, Go, AWS, REST APIs and microservices/distributed systems and take pride in producing reliable, clean and robust software and architectures. I also enjoy mentoring other engineers and sharing knowledge/experience in areas where I'm able to do so. In my spare time I do lots of side projects, I have also open sourced a few projects, and am an active open source contributor and maintainer.",
+    "summary": "I am a highly motivated, detail-oriented and experienced self-taught software engineer with a background in aerospace engineering and materials science. I am highly proficient in Python, Go, AWS, REST APIs and microservices/distributed systems and take pride in producing reliable, clean, robust and well-documented software and architectures. I also enjoy mentoring other engineers and sharing knowledge/experience in areas where I'm able to do so. In my spare time I'm constantly doing side projects and playing with new things, I have also open sourced a few projects, and am an active open source contributor and maintainer.",
     "location": {
       "city": "Nantwich",
       "countryCode": "UK"
@@ -34,7 +34,7 @@
       "startDate": "2023-02-22",
       "summary": "Promoted to technical lead of a cross-functional pod; setting a technical & strategic direction, designing higher level architectures, acting as a the organisation's SME for our area, and leading a team of several developers and QAs.",
       "highlights": [
-        "Led the initiative to design, build and release an entirely new easy access savings product, introducing a new core banking platform and working in an end to end, cross-functional pod.",
+        "Led the initiative to design, build and release an entirely new easy access savings product, introducing a new core banking platform and working in full-stack, cross-functional pod.",
         "Created and rolled out a 'best practice baked in' template for a serverless application that was widely adopted and liked across the organisation.",
         "Introduced and championed the use of static typing in python code as well as significantly stricter linting, leading to a measurable reduction in production errors across a number of services.",
         "Ran a serverless workshop for developers new to the stack, upskilling them in AWS CloudFormation, SAM, Lambdas, API Gateway, DynamoDB etc.",
@@ -143,6 +143,7 @@
       "name": "DevOps",
       "keywords": [
         "CI/CD",
+        "GitOps",
         "GitHub Actions",
         "Docker/Compose",
         "Terraform",
@@ -161,8 +162,7 @@
         "CodePipeline",
         "SAR",
         "Pinpoint",
-        "Kinesis/Firehose",
-        "VPC/Networking"
+        "Kinesis/Firehose"
       ]
     },
     {
