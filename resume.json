@@ -34,13 +34,14 @@
       "startDate": "2023-02-22",
       "summary": "Promoted to technical lead of a cross-functional pod; setting a technical & strategic direction, designing higher level architectures, acting as a the organisation's SME for our area, and leading a team of several developers and QAs.",
       "highlights": [
-        "Led the initiative to design, build and release an entirely new easy access savings product, introducing a new core banking platform and working in full-stack, cross-functional pod.",
+        "Led the initiative to design, build and release an entirely new easy access savings product, using a new core banking platform and working in full-stack, cross-functional pod.",
         "Created and rolled out a 'best practice baked in' template for a serverless application that was widely adopted and liked across the organisation.",
         "Introduced and championed the use of static typing in python code as well as significantly stricter linting, leading to a measurable reduction in production errors across a number of services.",
-        "Ran a serverless workshop for developers new to the stack, upskilling them in AWS CloudFormation, SAM, Lambdas, API Gateway, DynamoDB etc.",
+        "Developed a number of reusable components and deployment pipelines to uplift the efficiency of engineers both within and outside my direct team.",
+        "Led a serverless workshop for developers new to the stack, upskilling them in AWS CloudFormation, SAM, Lambdas, API Gateway, DynamoDB etc.",
         "Participated in the interviewing and recruitment of new engineers up to staff level.",
         "Mentored new team members and helped to foster an attitude of engineering excellence and best practice within the team and across the function.",
-        "Appointed to the Technical Design Council and was heavily involved in a number of large initiatives across engineering including review/approval of complex arhictectural changes, adoption of new technologies and high impact security and compliance initiatives."
+        "Member of the Technical Leadership Forum and was heavily involved in a number of large initiatives across engineering including review/approval of complex arhictectural changes, adoption of new technologies and high impact security and compliance initiatives."
       ]
     },
     {
