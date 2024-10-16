@@ -9,15 +9,10 @@
   "author": {
     "name": "Tom Fleet"
   },
-  "scripts": {
-    "serve": "resume-cli --serve --theme kendall",
-    "validate": "resume-cli validate",
-    "build": "resume-cli export ./public/index.html --format html --theme kendall"
-  },
   "dependencies": {
-    "jsonresume-theme-kendall": "^0.2.0"
+    "jsonresume-theme-kendall": ">=0.2.0"
   },
   "devDependencies": {
-    "resume-cli": "^3.0.6"
+    "resume-cli": "^3.0.0"
   }
 }

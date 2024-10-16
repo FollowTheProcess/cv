@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Tom Fleet",
-    "label": "Software Engineer",
+    "label": "Senior Software Engineer",
     "image": "https://avatars.githubusercontent.com/u/62767721?v=4",
     "email": "tomfleet2018@gmail.com",
     "url": "https://followtheprocess.github.io",
-    "summary": "I am a highly motivated, detail-oriented and experienced self-taught software engineer with a background in aerospace engineering and materials science. I am highly proficient in Python, Go, AWS, REST APIs and microservices/distributed systems and take pride in producing reliable, clean, robust and well-documented software and architectures. I also enjoy mentoring other engineers and sharing knowledge/experience in areas where I'm able to do so. In my spare time I'm constantly doing side projects and playing with new things, I have also open sourced a few projects, and am an active open source contributor and maintainer.",
+    "summary": "I am a highly motivated, detail-oriented and experienced self-taught software engineer with a background in aerospace engineering and materials science. My expertise is in Go, Python, AWS Serverless, REST APIs and microservices/distributed systems. I take pride in producing reliable, clean, robust and well-documented software and systems. I also enjoy mentoring other engineers and sharing knowledge/experience in areas where I'm able to do so. I have a lot of side projects (sometimes too many) and enjoy learning new things to expand my skillset, I have also open sourced a few projects, and am an active open source contributor and maintainer.",
     "location": {
       "city": "Nantwich",
       "countryCode": "UK"
@@ -29,14 +29,28 @@
       "name": "Chetwood Financial Ltd.",
       "location": "Wrexham, UK",
       "description": "Digital-first UK Bank",
+      "position": "Senior Cloud Engineer",
+      "url": "https://chetwood.co",
+      "startDate": "2024-04-01",
+      "summary": "Started a new position within the Cloud Engineering team as a Senior Cloud Engineer with a focus on DevEx, designing, implementing and managing crucial parts of the AWS estate as well as other shared infrastructure/services in a more DevOps and DevEx focussed role.",
+      "highlights": [
+        "Created and rolled out a suite of 'best practice baked in' templates for a serverless applications, terraform modules, and reusable github actions that were widely adopted and liked across the organisation.",
+        "Designed, developed and rolled out a fully automated and safe solution for teams to self-provision GitHub repositories using the templates mentioned above with compliance, security and quality standards managed by automated org-wide rulesets.",
+        "Developed a number of reusable pipelines and GitHub actions, standardising common actions across the organisation such as continuous integration in Python repositories, and the Terraform plan, review and apply lifecycle."
+      ]
+    },
+    {
+      "name": "Chetwood Financial Ltd.",
+      "location": "Wrexham, UK",
+      "description": "Digital-first UK Bank",
       "position": "Tech Lead",
       "url": "https://chetwood.co",
       "startDate": "2023-02-22",
+      "endDate": "2024-04-01",
       "summary": "Promoted to technical lead of a cross-functional pod; setting a technical & strategic direction, designing higher level architectures, acting as a the organisation's SME for our area, and leading a team of several developers and QAs.",
       "highlights": [
         "Led the initiative to design, build and release an entirely new easy access savings product, using a new core banking platform and working in full-stack, cross-functional pod.",
-        "Created and rolled out a 'best practice baked in' template for a serverless application that was widely adopted and liked across the organisation.",
-        "Introduced and championed the use of static typing in python code as well as significantly stricter linting, leading to a measurable reduction in production errors across a number of services.",
+        "Championed and introduced the use of static typing in python code as well as significantly stricter linting, leading to a measurable reduction in production errors across a number of services.",
         "Developed a number of reusable components and deployment pipelines to uplift the efficiency of engineers both within and outside my direct team.",
         "Led a serverless workshop for developers new to the stack, upskilling them in AWS CloudFormation, SAM, Lambdas, API Gateway, DynamoDB etc.",
         "Participated in the interviewing and recruitment of new engineers up to staff level.",
@@ -70,13 +84,13 @@
       "summary": "Backend Python/Django developer split between backend development/maintenance and the implementation of machine learning feature sets on a proprietary web-based platform designed to facilitate cloud migrations.",
       "highlights": [
         "Development and deployment of text classification microservices via Azure Functions and Openfaas. Also created a robust and reusable “cookiecutter” template for such services.",
-        "Maintaining a large enterprise Django REST API, addressing bugs, implementing new API endpoints to expose to a react frontend, refactoring as necessary."
+        "Maintaining a large Django REST API, addressing bugs, implementing new API endpoints to expose to a react frontend, refactoring as necessary."
       ]
     },
     {
       "name": "Previous Life",
       "location": "Various",
-      "description": "Former career in Aerospace Engineering and Materials Science, details omitted for brevity.",
+      "description": "Career in Aerospace Engineering and Materials Science, details omitted for brevity.",
       "startDate": "2015-06-01",
       "endDate": "2021-05-01",
       "summary": "Engineer/scientist focused on advanced materials science, polymer and metallic composites applied to the aerospace industry both in large multinational corporations and smaller research labs.",
@@ -137,7 +151,8 @@
       "keywords": [
         "Python",
         "Go",
-        "Rust"
+        "Rust",
+        "HCL"
       ]
     },
     {
@@ -163,15 +178,8 @@
         "CodePipeline",
         "SAR",
         "Pinpoint",
-        "Kinesis/Firehose"
-      ]
-    },
-    {
-      "name": "SQL",
-      "keywords": [
-        "MySQL",
-        "Postgres",
-        "SQL Server"
+        "Kinesis/Firehose",
+        "AFT"
       ]
     },
     {
@@ -195,18 +203,11 @@
   ],
   "interests": [
     {
-      "name": "Music",
+      "name": "Open Source",
       "keywords": [
-        "Guitar",
-        "Drums",
-        "Gigs"
-      ]
-    },
-    {
-      "name": "Motor Racing",
-      "keywords": [
-        "Formula 1",
-        "WRC"
+        "Contributing",
+        "Maintenance",
+        "Collaboration"
       ]
     },
     {
@@ -218,37 +219,9 @@
         "Spaceflight",
         "Robotics"
       ]
-    },
-    {
-      "name": "Open Source",
-      "keywords": [
-        "Contributing",
-        "Maintenance",
-        "Collaboration",
-        "Side Projects"
-      ]
     }
   ],
   "projects": [
-    {
-      "name": "Pytoil",
-      "description": "Python CLI to automate the development workflow",
-      "highlights": [
-        "Available on PyPI",
-        "Currently at >70k installs"
-      ],
-      "keywords": [
-        "Python",
-        "CLI",
-        "Automation",
-        "Developer Tools"
-      ],
-      "url": "https://github.com/FollowTheProcess/pytoil",
-      "roles": [
-        "Creator"
-      ],
-      "type": "application"
-    },
     {
       "name": "Spok",
       "description": "A modern, concurrent task runner/build system written in Go.",
@@ -270,22 +243,39 @@
       "type": "application"
     },
     {
-      "name": "Nox",
-      "description": "Python automation and testing toolkit (maintainer).",
+      "name": "CLI",
+      "description": "A simple but powerful library for crafting CLI applications in Go.",
       "highlights": [
-        "Popular project"
+        "Address issues I found in existing open source libraries",
+        "Really nice to use API"
       ],
       "keywords": [
-        "Python",
-        "Testing",
-        "Developer Tooling"
+        "Go",
+        "CLI",
+        "Library"
       ],
-      "url": "https://nox.thea.codes",
+      "url": "https://github.com/FollowTheProcess/cli",
       "roles": [
-        "Maintainer",
-        "Contributor"
+        "Creator"
       ],
-      "type": "application"
+      "type": "library"
+    },
+    {
+      "name": "parser",
+      "description": "Combinatorial text parsing in Go",
+      "highlights": [
+        "Simple, generic API for combinatorial text parsing",
+        "Fuzz tested"
+      ],
+      "keywords": [
+        "Go",
+        "Library"
+      ],
+      "url": "https://github.com/FollowTheProcess/parser",
+      "roles": [
+        "Creator"
+      ],
+      "type": "library"
     },
     {
       "name": "msg",
@@ -300,77 +290,6 @@
         "Library"
       ],
       "url": "https://github.com/FollowTheProcess/msg",
-      "roles": [
-        "Creator"
-      ],
-      "type": "application"
-    },
-    {
-      "name": "Tag",
-      "description": "CLI to help automate semantic version releases and GitOps.",
-      "highlights": [
-        "Available on homebrew"
-      ],
-      "keywords": [
-        "Go",
-        "CLI",
-        "Developer Tooling"
-      ],
-      "url": "https://github.com/FollowTheProcess/tag",
-      "roles": [
-        "Creator"
-      ],
-      "type": "application"
-    },
-    {
-      "name": "Pymechtest",
-      "description": "Python mechanical testing analysis library.",
-      "highlights": [
-        "Available on PyPI",
-        "100% Test Coverage",
-        "Engineering/Science Tools"
-      ],
-      "keywords": [
-        "Python",
-        "Pandas",
-        "Engineering/Science"
-      ],
-      "url": "https://github.com/FollowTheProcess/pymechtest",
-      "roles": [
-        "Creator"
-      ],
-      "type": "application"
-    },
-    {
-      "name": "Goignore",
-      "description": "Handy Go CLI to generate gitignore files.",
-      "highlights": [
-        "Available on homebrew"
-      ],
-      "keywords": [
-        "Go",
-        "CLI",
-        "Developer Tooling"
-      ],
-      "url": "https://github.com/FollowTheProcess/goignore",
-      "roles": [
-        "Creator"
-      ],
-      "type": "application"
-    },
-    {
-      "name": "Fatigue Damage Prediction",
-      "description": "Using machine learning to accurately predict thermo-mechanical fatigue damage.",
-      "highlights": [
-        "Published Journal Article",
-        "High accuracy model"
-      ],
-      "keywords": [
-        "Python",
-        "Scikit Learn",
-        "Engineering/Science"
-      ],
-      "url": "https://github.com/FollowTheProcess/msc_project",
       "roles": [
         "Creator"
       ],

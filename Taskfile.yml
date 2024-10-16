@@ -1,0 +1,48 @@
+# https://taskfile.dev
+
+version: "3"
+
+vars:
+  DEFAULT_THEME: kendall
+  HTML: ./public/index.html
+  BIN: ./node_modules/resume-cli/build/main.js
+
+tasks:
+  default:
+    desc: List all available tasks
+    silent: true
+    cmds:
+      - task --list
+
+  dev:
+    desc: Set up the dev environment
+    cmds:
+      - npm install
+
+  serve:
+    desc: Build and serve the resume
+    cmds:
+      - "{{.BIN}} serve --theme {{.DEFAULT_THEME}}"
+
+  validate:
+    desc: Validate the resume JSON
+    cmds:
+      - "{{.BIN}} validate"
+
+  build:
+    desc: Build the HTML version
+    deps:
+      - validate
+    cmds:
+      - mkdir -p exports
+      - "{{.BIN}} export {{.HTML}} --format html --theme {{.DEFAULT_THEME}}"
+
+  check:
+    desc: Spellcheck the CV
+    cmds:
+      - uv tool run codespell resume.json -L beng,SME
+
+  clean:
+    desc: Clean up built artifacts
+    cmds:
+      - rm -rf exports public
