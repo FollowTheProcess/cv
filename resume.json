@@ -34,7 +34,7 @@
       "startDate": "2024-04-01",
       "summary": "Started a new position within the Cloud Engineering team as a Senior Cloud Engineer with a focus on DevEx, designing, implementing and managing crucial parts of the AWS estate as well as other shared infrastructure/services in a more DevOps and DevEx focussed role.",
       "highlights": [
-        "Created and rolled out a suite of 'best practice baked in' templates for a serverless applications, terraform modules, and reusable github actions that were widely adopted and liked across the organisation.",
+        "Created and rolled out a suite of 'best practice baked in' templates for serverless applications, terraform modules, and reusable github actions that were widely adopted and liked across the organisation.",
         "Designed, developed and rolled out a fully automated and safe solution for teams to self-provision GitHub repositories using the templates mentioned above with compliance, security and quality standards managed by automated org-wide rulesets.",
         "Developed a number of reusable pipelines and GitHub actions, standardising common actions across the organisation such as continuous integration in Python repositories, and the Terraform plan, review and apply lifecycle."
       ]
@@ -51,11 +51,9 @@
       "highlights": [
         "Led the initiative to design, build and release an entirely new easy access savings product, using a new core banking platform and working in full-stack, cross-functional pod.",
         "Championed and introduced the use of static typing in python code as well as significantly stricter linting, leading to a measurable reduction in production errors across a number of services.",
-        "Developed a number of reusable components and deployment pipelines to uplift the efficiency of engineers both within and outside my direct team.",
         "Led a serverless workshop for developers new to the stack, upskilling them in AWS CloudFormation, SAM, Lambdas, API Gateway, DynamoDB etc.",
         "Participated in the interviewing and recruitment of new engineers up to staff level.",
-        "Mentored new team members and helped to foster an attitude of engineering excellence and best practice within the team and across the function.",
-        "Member of the Technical Leadership Forum and was heavily involved in a number of large initiatives across engineering including review/approval of complex arhictectural changes, adoption of new technologies and high impact security and compliance initiatives."
+        "Mentored new team members and helped to foster an attitude of engineering excellence and best practice within the team and across the function."
       ]
     },
     {
@@ -299,7 +297,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00",
-    "theme": "kendall"
+    "lastModified": "2017-12-24T15:53:00"
   }
 }
