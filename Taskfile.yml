@@ -3,9 +3,8 @@
 version: "3"
 
 vars:
-  DEFAULT_THEME: kendall
+  DEFAULT_THEME: jsonresume-theme-kendall
   HTML: ./public/index.html
-  BIN: ./node_modules/resume-cli/build/main.js
 
 tasks:
   default:
@@ -19,23 +18,22 @@ tasks:
     cmds:
       - npm install
 
+  build:
+    desc: Build the html
+    cmds:
+      - npx resumed render --theme {{.DEFAULT_THEME}} --output {{.HTML}}
+
   serve:
     desc: Build and serve the resume
+    deps:
+      - build
     cmds:
-      - "{{.BIN}} serve --theme {{.DEFAULT_THEME}}"
+      - open {{.HTML}}
 
   validate:
     desc: Validate the resume JSON
     cmds:
-      - "{{.BIN}} validate"
-
-  build:
-    desc: Build the HTML version
-    deps:
-      - validate
-    cmds:
-      - mkdir -p exports
-      - "{{.BIN}} export {{.HTML}} --format html --theme {{.DEFAULT_THEME}}"
+      - npx resumed validate
 
   check:
     desc: Spellcheck the CV
