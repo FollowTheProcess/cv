@@ -404,7 +404,7 @@ blockquote,
           <!-- ABOUT ME -->
           <div class="box">
             <h2><i class="fas fa-user ico"></i> About</h2>
-            <p>Experienced self-taught software engineer with a background in aerospace engineering and materials science. Strong expertise and experience in Go, Python, AWS Serverless, REST APIs and microservices/distributed systems. I take pride in producing reliable, clean, robust and well-documented software and systems. I also enjoy mentoring other engineers and sharing knowledge/experience in areas where I'm able to do so. I have a lot of side projects and enjoy learning new things to expand my skillset, I have also open sourced quite a few projects, and am an active open source contributor and maintainer.</p>
+            <p>Experienced self-taught software engineer with a background in aerospace engineering and materials science. Expertise and experience in Go, Python, AWS Serverless, REST APIs and microservices/distributed systems. I take pride in producing reliable, clean, robust and well-documented software and architecture. I also enjoy mentoring other engineers and sharing knowledge/experience in areas where I'm able to do so. I have a lot of side projects and enjoy learning new things to expand my skillset, I have also open sourced quite a few projects, and am an active open source contributor and maintainer.</p>
           </div>
           <!-- WORK EXPERIENCE -->
           <div class="box">
@@ -434,11 +434,13 @@ blockquote,
                       Senior Cloud Engineer in the platform team, designed, implemented and managed crucial parts of the AWS estate as well as other shared infrastructure/services in a more DevOps and DevEx focussed role.
                       <div class="highlights">Highlights</div>
                       <ul class="list-group">
-                        <li class="list-group-item">Created and rolled out a suite of 'best practice baked in' templates for bootstrapping new service development in the engineering teams. These rapidly became the standard across the organisation.</li>
-                        <li class="list-group-item">Designed and led the implementation across the organisation of a private PyPI repository in AWS CodeArtifact acting as a cache pull-through, decoupling the estate from public infrastructure, improving the security posture and deployment reliability.</li>
-                        <li class="list-group-item">Designed, developed and rolled out a fully automated and safe solution for teams to self-provision GitHub repositories using the templates mentioned above with compliance, security and quality standards managed by automated org-wide rulesets.</li>
-                        <li class="list-group-item">Leveraged AFT (Account Factory for Terraform) to create an automatic, standards-compliant system for vending new AWS accounts, including a suite of composable customisations to tailor account infrastructure as needed.</li>
-                        <li class="list-group-item">Developed a number of reusable pipelines and GitHub actions, standardising common actions across the organisation such as continuous integration in Python repositories, and the Terraform plan, review and apply lifecycle.</li>
+                        <li class="list-group-item">Created and rolled out a suite of 'best practice baked in' copier templates for bootstrapping new service development in the engineering teams. These rapidly became the standard across the organisation and I estimate saved hundreds of engineering hours per year.</li>
+                        <li class="list-group-item">Designed and led the implementation across the organisation of a private PyPI repository in AWS CodeArtifact acting as a cache pull-through, decoupling the estate from public infrastructure, improving the security posture and deployment reliability. Also implemented a pre-emptive vulnerability scanning process on this CodeArtifact repository.</li>
+                        <li class="list-group-item">Rolled out a fully automated and safe solution for teams to self-provision GitHub repositories using GitHub actions and the templates mentioned above with compliance, security and quality standards managed by automated org-wide rulesets deployed with Terraform.</li>
+                        <li class="list-group-item">Leveraged AFT (Account Factory for Terraform) to create an automatic, standards-compliant system for provisioning new AWS accounts, including a suite of composable customisations to tailor account infrastructure as needed.</li>
+                        <li class="list-group-item">Developed a number of reusable CI/CD pipelines and GitHub actions, standardising common actions across the organisation such as continuous integration in Python repositories, and the Terraform plan, review and apply lifecycle.</li>
+                        <li class="list-group-item">Held workshops and wrote user guides to help upskill the engineering teams in infrastructure and DevOps, particularly debugging in AWS and using Terraform for IaC.</li>
+                        <li class="list-group-item">Led the introduction of infrastructure/deployment testing to the Cloud Platform team, improving the quality and reliability of the shared components we developed.</li>
                       </ul>
                     </div>
                   </div>
@@ -469,11 +471,11 @@ blockquote,
                       Promoted to technical lead of a cross-functional pod; setting a technical & strategic direction, designing higher level architectures, acting as a the organisation's SME for our area, and leading a team of several developers and QAs.
                       <div class="highlights">Highlights</div>
                       <ul class="list-group">
-                        <li class="list-group-item">Led the initiative to design, build and release an entirely new easy access savings product, using a new core banking platform and working in full-stack, cross-functional pod.</li>
-                        <li class="list-group-item">Championed and introduced the use of static typing in python code as well as significantly stricter linting, leading to a measurable reduction in production errors across a number of core services.</li>
-                        <li class="list-group-item">Led a serverless workshop for developers new to the stack, upskilling them in AWS CloudFormation, SAM, Lambdas, API Gateway, DynamoDB etc.</li>
+                        <li class="list-group-item">Led a newly created cross-functional team building an entirely new easy access savings product, using a new core banking platform.</li>
+                        <li class="list-group-item">Championed and introduced the use of static typing in python code as well as significantly stricter linting via ruff, leading to a measurable reduction in production errors across a number of core services, and an improved developer experience with faster feedback.</li>
+                        <li class="list-group-item">Led a serverless workshop for developers new to the stack, upskilling them in AWS CloudFormation, SAM, Lambdas, API Gateway, DynamoDB and event driven architecture.</li>
                         <li class="list-group-item">Participated in the interviewing and recruitment of new engineers up to staff level.</li>
-                        <li class="list-group-item">Mentored new team members and helped to foster an attitude of engineering excellence and best practice within the team and across the function.</li>
+                        <li class="list-group-item">Mentored new team members and helped to foster an attitude of engineering excellence and best practice within the team and across the engineering department.</li>
                       </ul>
                     </div>
                   </div>
@@ -575,24 +577,6 @@ blockquote,
                 </div>
               </div>
           </div>
-          <!-- PROJECTS -->
-          <div class="box">
-            <h2><i class= "fas fa-code-branch ico"></i> Projects</h2>
-            <ul class="list-group">
-              <li class="list-group-item">
-                <span style="font-weight:bold">Spok</span>: A modern, concurrent task runner&#x2F;build system written in Go.
-              </li>
-              <li class="list-group-item">
-                <span style="font-weight:bold">CLI</span>: A simple but powerful library for crafting CLI applications in Go.
-              </li>
-              <li class="list-group-item">
-                <span style="font-weight:bold">parser</span>: Combinatorial text parsing in Go
-              </li>
-              <li class="list-group-item">
-                <span style="font-weight:bold">msg</span>: A lightweight console printing toolkit for Go CLIs.
-              </li>
-            </ul>
-          </div>
         </div>
         <div class="col-xs-12 col-sm-5">
           <!-- CONTACT -->
@@ -692,6 +676,7 @@ blockquote,
                 <span class= "skill badge">API Gateway</span>
                 <span class= "skill badge">Step Functions</span>
                 <span class= "skill badge">SQS/SNS</span>
+                <span class= "skill badge">EventBridge</span>
                 <span class= "skill badge">CodePipeline</span>
                 <span class= "skill badge">SAR</span>
                 <span class= "skill badge">Pinpoint</span>

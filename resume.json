@@ -21,7 +21,7 @@
         "username": "Tom Fleet"
       }
     ],
-    "summary": "Experienced self-taught software engineer with a background in aerospace engineering and materials science. Strong expertise and experience in Go, Python, AWS Serverless, REST APIs and microservices/distributed systems. I take pride in producing reliable, clean, robust and well-documented software and systems. I also enjoy mentoring other engineers and sharing knowledge/experience in areas where I'm able to do so. I have a lot of side projects and enjoy learning new things to expand my skillset, I have also open sourced quite a few projects, and am an active open source contributor and maintainer.",
+    "summary": "Experienced self-taught software engineer with a background in aerospace engineering and materials science. Expertise and experience in Go, Python, AWS Serverless, REST APIs and microservices/distributed systems. I take pride in producing reliable, clean, robust and well-documented software and architecture. I also enjoy mentoring other engineers and sharing knowledge/experience in areas where I'm able to do so. I have a lot of side projects and enjoy learning new things to expand my skillset, I have also open sourced quite a few projects, and am an active open source contributor and maintainer.",
     "url": "https://followtheprocess.github.io"
   },
   "certificates": [
@@ -84,81 +84,6 @@
     "theme": "jsonresume-theme-kendall",
     "version": "v1.0.0"
   },
-  "projects": [
-    {
-      "description": "A modern, concurrent task runner/build system written in Go.",
-      "highlights": [
-        "Fully original lexed, parsed syntax",
-        "Nice CLI",
-        "Task parallelisation and hash based redundancy detection"
-      ],
-      "keywords": [
-        "Go",
-        "CLI",
-        "Automation",
-        "Developer Tools"
-      ],
-      "name": "Spok",
-      "roles": [
-        "Creator"
-      ],
-      "type": "application",
-      "url": "https://github.com/FollowTheProcess/spok"
-    },
-    {
-      "description": "A simple but powerful library for crafting CLI applications in Go.",
-      "highlights": [
-        "Address issues I found in existing open source libraries",
-        "Really nice to use API"
-      ],
-      "keywords": [
-        "Go",
-        "CLI",
-        "Library"
-      ],
-      "name": "CLI",
-      "roles": [
-        "Creator"
-      ],
-      "type": "library",
-      "url": "https://github.com/FollowTheProcess/cli"
-    },
-    {
-      "description": "Combinatorial text parsing in Go",
-      "highlights": [
-        "Simple, generic API for combinatorial text parsing",
-        "Fuzz tested"
-      ],
-      "keywords": [
-        "Go",
-        "Library"
-      ],
-      "name": "parser",
-      "roles": [
-        "Creator"
-      ],
-      "type": "library",
-      "url": "https://github.com/FollowTheProcess/parser"
-    },
-    {
-      "description": "A lightweight console printing toolkit for Go CLIs.",
-      "highlights": [
-        "100% Test Coverage",
-        "Available on pkg.go.dev",
-        "First Go Library"
-      ],
-      "keywords": [
-        "Go",
-        "Library"
-      ],
-      "name": "msg",
-      "roles": [
-        "Creator"
-      ],
-      "type": "application",
-      "url": "https://github.com/FollowTheProcess/msg"
-    }
-  ],
   "publications": [
     {
       "name": "Modelling of the Overcasting Reinforcement Process using the LS-DYNA ® ICFD Solver",
@@ -203,6 +128,7 @@
         "API Gateway",
         "Step Functions",
         "SQS/SNS",
+        "EventBridge",
         "CodePipeline",
         "SAR",
         "Pinpoint",
@@ -228,11 +154,13 @@
     {
       "description": "Digital-first UK Bank",
       "highlights": [
-        "Created and rolled out a suite of 'best practice baked in' templates for bootstrapping new service development in the engineering teams. These rapidly became the standard across the organisation.",
-        "Designed and led the implementation across the organisation of a private PyPI repository in AWS CodeArtifact acting as a cache pull-through, decoupling the estate from public infrastructure, improving the security posture and deployment reliability.",
-        "Designed, developed and rolled out a fully automated and safe solution for teams to self-provision GitHub repositories using the templates mentioned above with compliance, security and quality standards managed by automated org-wide rulesets.",
-        "Leveraged AFT (Account Factory for Terraform) to create an automatic, standards-compliant system for vending new AWS accounts, including a suite of composable customisations to tailor account infrastructure as needed.",
-        "Developed a number of reusable pipelines and GitHub actions, standardising common actions across the organisation such as continuous integration in Python repositories, and the Terraform plan, review and apply lifecycle."
+        "Created and rolled out a suite of 'best practice baked in' copier templates for bootstrapping new service development in the engineering teams. These rapidly became the standard across the organisation and I estimate saved hundreds of engineering hours per year.",
+        "Designed and led the implementation across the organisation of a private PyPI repository in AWS CodeArtifact acting as a cache pull-through, decoupling the estate from public infrastructure, improving the security posture and deployment reliability. Also implemented a pre-emptive vulnerability scanning process on this CodeArtifact repository.",
+        "Rolled out a fully automated and safe solution for teams to self-provision GitHub repositories using GitHub actions and the templates mentioned above with compliance, security and quality standards managed by automated org-wide rulesets deployed with Terraform.",
+        "Leveraged AFT (Account Factory for Terraform) to create an automatic, standards-compliant system for provisioning new AWS accounts, including a suite of composable customisations to tailor account infrastructure as needed.",
+        "Developed a number of reusable CI/CD pipelines and GitHub actions, standardising common actions across the organisation such as continuous integration in Python repositories, and the Terraform plan, review and apply lifecycle.",
+        "Held workshops and wrote user guides to help upskill the engineering teams in infrastructure and DevOps, particularly debugging in AWS and using Terraform for IaC.",
+        "Led the introduction of infrastructure/deployment testing to the Cloud Platform team, improving the quality and reliability of the shared components we developed."
       ],
       "location": "Wrexham, UK",
       "name": "Chetwood Financial Ltd.",
@@ -245,11 +173,11 @@
       "description": "Digital-first UK Bank",
       "endDate": "2024-04-01",
       "highlights": [
-        "Led the initiative to design, build and release an entirely new easy access savings product, using a new core banking platform and working in full-stack, cross-functional pod.",
-        "Championed and introduced the use of static typing in python code as well as significantly stricter linting, leading to a measurable reduction in production errors across a number of core services.",
-        "Led a serverless workshop for developers new to the stack, upskilling them in AWS CloudFormation, SAM, Lambdas, API Gateway, DynamoDB etc.",
+        "Led a newly created cross-functional team building an entirely new easy access savings product, using a new core banking platform.",
+        "Championed and introduced the use of static typing in python code as well as significantly stricter linting via ruff, leading to a measurable reduction in production errors across a number of core services, and an improved developer experience with faster feedback.",
+        "Led a serverless workshop for developers new to the stack, upskilling them in AWS CloudFormation, SAM, Lambdas, API Gateway, DynamoDB and event driven architecture.",
         "Participated in the interviewing and recruitment of new engineers up to staff level.",
-        "Mentored new team members and helped to foster an attitude of engineering excellence and best practice within the team and across the function."
+        "Mentored new team members and helped to foster an attitude of engineering excellence and best practice within the team and across the engineering department."
       ],
       "location": "Wrexham, UK",
       "name": "Chetwood Financial Ltd.",

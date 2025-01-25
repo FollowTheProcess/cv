@@ -20,6 +20,8 @@ tasks:
 
   build:
     desc: Build the html
+    sources:
+      - resume.json
     cmds:
       - npx resumed render --theme {{.DEFAULT_THEME}} --output {{.HTML}}
 
