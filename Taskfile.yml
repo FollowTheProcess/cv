@@ -16,14 +16,14 @@ tasks:
   dev:
     desc: Set up the dev environment
     cmds:
-      - npm install
+      - bun install
 
   build:
     desc: Build the html
     sources:
       - resume.json
     cmds:
-      - npx resumed render --theme {{.DEFAULT_THEME}} --output {{.HTML}}
+      - bun x resumed render --theme {{.DEFAULT_THEME}} --output {{.HTML}}
 
   serve:
     desc: Build and serve the resume
@@ -35,7 +35,7 @@ tasks:
   validate:
     desc: Validate the resume JSON
     cmds:
-      - npx resumed validate
+      - bun x resumed validate
 
   check:
     desc: Spellcheck the CV
