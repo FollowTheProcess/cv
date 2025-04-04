@@ -23,6 +23,7 @@ tasks:
     sources:
       - resume.json
     cmds:
+      - mkdir -p ./public
       - bun x resumed render --theme {{.DEFAULT_THEME}} --output {{.HTML}}
 
   serve:
