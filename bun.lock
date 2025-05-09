@@ -4,10 +4,10 @@
     "": {
       "name": "cv",
       "dependencies": {
-        "jsonresume-theme-kendall": "latest",
+        "jsonresume-theme-kendall": "^0.2.0",
       },
       "devDependencies": {
-        "resumed": "latest",
+        "resumed": "^5.0.0",
       },
     },
   },
@@ -68,7 +68,7 @@
 
     "require-main-filename": ["require-main-filename@2.0.0", "", {}, "sha512-NKN5kMDylKuldxYLSUfrbo5Tuzh4hd+2E8NPPX02mZtn1VuREQToYe/ZdlJy+J3uCpfaiGF05e7B8W0iXbQHmg=="],
 
-    "resumed": ["resumed@4.1.0", "", { "dependencies": { "@jsonresume/schema": "^1.0.0", "sade": "^1.7.0", "strip-json-comments": "^5.0.1", "yoctocolors": "^2.0.0" }, "bin": { "resumed": "bin/resumed.js" } }, "sha512-8RmPjn7MMm0uI4rR5xFKImTTp3zpWhHik+oAAl3252wIxPERBPF2u2nxJfvAUX03kHzwl1wXr+A+5cjo7TSDDQ=="],
+    "resumed": ["resumed@5.0.0", "", { "dependencies": { "@jsonresume/schema": "^1.0.0", "sade": "^1.7.0", "strip-json-comments": "^5.0.1", "yoctocolors": "^2.0.0" }, "peerDependencies": { "puppeteer": "^24.0.0" }, "optionalPeers": ["puppeteer"], "bin": { "resumed": "bin/resumed.js" } }, "sha512-6h1ybWudo8OzIP9kR2d4Ff9U49ra773XqIkLjHk3FAcIEJGb4iH6L/96qiMbSkOG7MZrnCWLSZd1OHzdtgPuIA=="],
 
     "sade": ["sade@1.8.1", "", { "dependencies": { "mri": "^1.1.0" } }, "sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A=="],
 
