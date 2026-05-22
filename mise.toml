@@ -1,0 +1,33 @@
+[tools]
+bun = "latest"
+typos = "latest"
+
+[vars]
+default_theme = "jsonresume-theme-kendall"
+html = "./public/index.html"
+
+[tasks.dev]
+description = "Set up the dev environment"
+run = "bun install"
+
+[tasks.build]
+description = "Build the site locally"
+depends = "dev"
+run = [
+  "rm -rf public",
+  "mkdir -p public",
+  "bun x resumed render --theme {{ vars.default_theme }} --output {{ vars.html }}"
+]
+
+[tasks.check]
+description = "Check content for typos and validate the resume"
+depends = "dev"
+run = [
+  "typos",
+  "bun x resumed validate",
+]
+
+[tasks.serve]
+description = "Build and serve the cv site"
+depends = "build"
+run = "open {{ vars.html }}"

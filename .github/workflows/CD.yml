@@ -1,0 +1,56 @@
+name: CD
+
+on:
+  push:
+    branches:
+      - main
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  deploy:
+    name: Deploy Site
+    runs-on: ubuntu-latest
+    environment:
+      name: live
+      url: https://www.followtheprocess.codes/cv
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v6
+
+      - name: Set up mise
+        uses: jdx/mise-action@v4
+
+      - name: Build CV
+        run: mise build
+
+      - name: Assume Deployment Role
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID_PROD }}:role/cv-upload-role
+          aws-region: "eu-west-2"
+
+      - name: Deploy Site
+        run: aws s3 sync ./public s3://cv.followtheprocess.codes/cv/ --delete --sse AES256
+
+      - name: Invalidate CloudFront Cache
+        run: |-
+          DIST_ID=$(aws ssm get-parameter \
+            --name /apps/www.followtheprocess.codes/cloudfront/distribution-id \
+            --query 'Parameter.Value' \
+            --output text)
+          aws cloudfront create-invalidation \
+            --distribution-id "$DIST_ID" \
+            --paths '/cv' '/cv/*'
