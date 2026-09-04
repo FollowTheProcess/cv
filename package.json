@@ -16,6 +16,6 @@
     "jsonresume-theme-kendall": "^0.2.0"
   },
   "devDependencies": {
-    "resumed": "^6.1.0"
+    "resumed": "^7.0.0"
   }
 }
